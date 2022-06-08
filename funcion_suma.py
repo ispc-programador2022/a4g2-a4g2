@@ -1,3 +1,2 @@
 def suma(a,b):
-    calculo=a+b
-    return(calculo)
+    return a+b
