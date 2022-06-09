@@ -1,6 +1,0 @@
-int1 = int (input("En numeros romanos, que significa la letra  ""MMXXII"":    "))
-int2 = int (input("Cuantos años vas a cumplir?"))
-
-int1 = int2
-
-print ("En el ",int1 ,"usted cumplirá...", int2 )
