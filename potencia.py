@@ -1,4 +1,1 @@
-def  potencia ( num1 , num2 ):
-  return  num1  **  num2
-
-potencia()
+# función potencia, retorna el potencia de 2 parámetros.
