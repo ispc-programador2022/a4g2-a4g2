@@ -3,4 +3,5 @@ def ing2i ():
     b= int( input("Ingrese el segundo número entero:  "))
     return [a,b]
 
-ing2i()
+
+    
