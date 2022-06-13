@@ -1,4 +1,6 @@
+## Llamo a la funcion genrnd de 50 num aleatorios
 import genrdm
+
 
 def sumgen():
     lista=genrdm()
@@ -7,3 +9,4 @@ def sumgen():
         for j in range(i+1,len(lista)):
             total+= lista[i] + lista[j]
     return total
+## Recorro la lista asignando i y j para sacar la suma de las combinanciones posibles de los numeros aleatorios tomados de a dos
