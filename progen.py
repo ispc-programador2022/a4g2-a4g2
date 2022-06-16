@@ -1,7 +1,7 @@
 # 14- función que devuelva el producto de las combinaciones posibles de los 
 # números generados por la función genrnd tomados de a dos.
 
-## Llamo a la funcion genrnd de 50 num aleatorios
+# Llamo a la funcion genrnd de 50 num aleatorios
 def progen():
     lista=genrdm()
     total=0
