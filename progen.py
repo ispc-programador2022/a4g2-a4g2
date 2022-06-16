@@ -1,4 +1,5 @@
-# 14- función que devuelva el producto de las combinaciones posibles de los números generados por la función genrnd tomados de a dos.
+# 14- función que devuelva el producto de las combinaciones posibles de los 
+# números generados por la función genrnd tomados de a dos.
 def progen():
     lista=genrdm()
     total=0
