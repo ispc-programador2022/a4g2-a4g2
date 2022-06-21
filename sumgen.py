@@ -1,7 +1,7 @@
-from genrdm import num_random
+import genrdm
 ## importo los numeros aleatorios 
 def minigenr():
-    list= num_random()
+    list= genrdm()
     minimo = list[0]
     for i in range(0, len(list)):
         if list[i] < minimo:
