@@ -1,4 +1,4 @@
-## Llamo a la funcion genrnd de 50 num aleatorios
+## Llamo a la funcion genrnd de 50 num aleatori
 from genrdm import num_random
 
 
