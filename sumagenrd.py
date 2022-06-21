@@ -1,9 +1,9 @@
 ## Llamo a la funcion genrnd de 50 num aleatorios
-import genrdm
+from genrdm import num_random
 
 
 def sumgen():
-    lista=genrdm()
+    lista=num_random()
     total=0
     for i in range(0,len(lista)-1):
         for j in range(i+1,len(lista)):
