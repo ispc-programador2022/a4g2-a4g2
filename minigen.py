@@ -1,4 +1,4 @@
-import genrdm
+from genrdm import genrdm
 ## importo los numeros aleatorios 
 def minigenr():
     list= genrdm()
