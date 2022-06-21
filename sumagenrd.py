@@ -1,5 +1,5 @@
 ## Llamo a la funcion genrnd de 50 num aleatori
-import genrdm
+from genrdm import genrdm
 
 
 def sumgen():
