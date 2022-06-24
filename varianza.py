@@ -1,5 +1,4 @@
-#El programa calcula la mediana de los valores flotantes almacenados en la lista
-#num_rand. La media es almacenada en la variable mediana_num_rand
+
 import random
 import statistics
 
@@ -35,3 +34,7 @@ print(media(num_rand))
 print(mediana(num_rand))
 print(rango(num_rand))
 print(varianza(num_rand))
+
+
+#El programa calcula la mediana de los valores flotantes almacenados en la lista
+#num_rand. La media es almacenada en la variable mediana_num_rand
