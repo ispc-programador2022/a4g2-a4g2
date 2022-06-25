@@ -10,7 +10,7 @@ from cociente import cociente
 from modulo import modulo
 from potencia import potencia
 from raiz import raiz
-
+## asignamos los valores para las operaciones
 enteros= ing2i()
 str= ing2s()
 
