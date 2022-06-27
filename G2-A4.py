@@ -19,8 +19,7 @@ from progen import progen ## modificar  funcion asignarle una lista x ejemplo de
 from maxgenrdm import maxgenrdm ##modificar funcion sacar el import genrdm
 from minigen import min_genrnd
 from medianadelvector import mediardm
-## Modificar Nombre Mediana del vector como py, quitar print e import del genrdm, asignarle una lista x
-from varianza import Vargen
+from Mediana del vector import medianadelvector
 ## asignamos los valores para las operaciones
 enteros= ing2i()
 str= ing2s()
@@ -44,7 +43,7 @@ print("Suma de las Combinaciones posibles Genrnd tomados de a dos: ", sumgenr(nu
 
 ## iniciar cuenta tiempo ejecucion ejercicio 29
 print("Media de Los 50 Numeros Aleatorios: ", mediardm(numrand))##16- función que calcule la media    
-#print("Mediana de Los 50 Numeros Aleatorios: ", median(numrand))
+print("Mediana de Los 50 Numeros Aleatorios: ", medianadelvector(numrand))
 #print("Rango de Los 50 Numeros Aleatorios: ", rangogen(numrand))
 print("La Varianza de Los 50 Numeros Aleatorios: ", Vargen(numrand)) ##19- función que calcule la varianza
 print("El minimo del vector de Los 50 Numeros Aleatorios: ", min_genrnd(numrand))##20- función que calcule devuelva el mínimo
