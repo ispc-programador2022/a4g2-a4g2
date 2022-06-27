@@ -1,11 +1,9 @@
-from genrdm import genrdm
 
-
-def mediardm():
+def mediardm(listax):
     m=genrdm()
     return sum(m)/len(m)
 
-print(mediardm())
+
     
 #llamo la función genrdm para crear un vector aleatorio y luego devuelvo
 #su sumatoria dividido su longitud para calcular la media
