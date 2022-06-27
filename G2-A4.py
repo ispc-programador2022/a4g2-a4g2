@@ -11,20 +11,21 @@ from modulo import modulo
 from potencia import potencia
 from raiz import raiz
 from funcion9 import funcion9
-## Modificar nombre de Ejercicio 10 como py
+from Ejercicio 10 import Ejercicio 10 #Quitar espacios del nombre del archivo py
 from funcion11 import funcion11
-from genrdm import genrdm ## modificar funcion sacar print
+from genrdm import genrdm 
 from sumagenrd import sumgenr
 from progen import progen ## modificar  funcion asignarle una lista x ejemplo def progenr(numalea): lista= numalea
-from maxgenrdm import maxgenrdm ##modificar funcion sacar el import genrdm
+from maxgenrdm import maxgenrdm ## modificar funcion sacar el import genrdm, asignar (listax) numeros=listax
 from minigen import min_genrnd
 from medianadelvector import mediardm
-from Mediana del vector import medianadelvector
+from Mediana del vector import medianadelvector #Quitar espacios del nombre del archivo py
+
 ## asignamos los valores para las operaciones
 enteros= ing2i()
 str= ing2s()
 numrand=genrdm()
-
+#NR50M= Funcion q genere los 50 ml random()
 print("Operación Suma de Enteros: ", enteros[0], "+", enteros[1], "=", suma(enteros[0],enteros[1])) ##1- función suma
 print("Operación Resta de Enteros: ", enteros[0], "-", enteros[1], "=", resta(enteros[0],enteros[1])) ##2- función resta
 print("Operación Producto de Enteros: ", enteros[0], "*", enteros[1], "=", producto(enteros[0],enteros[1])) ##2- función resta
@@ -35,6 +36,7 @@ print("Operación Radicación de Enteros: ", enteros[1], "√", enteros[0], "=",
 print("Ingrese Tercer parametro para operar: ")
 enteros.append(int(input()))## Agregamos Tercer Parametro
 print("Operación Producto de los 2 Enteros mas el Tercer Parametro es= ", funcion9(enteros[0],enteros[1],enteros[2]))##9- función p1, retorna el producto
+
 print("Operación Resta de los 2 Enteros por el Tercer Parametro es= ", funcion11(enteros[0],enteros[1],enteros[2]))##10- función p1, retorna la suma
 
 print("Numeros aleatorios: ", numrand)##12- función genrnd
@@ -52,12 +54,12 @@ print("El minimo del vector de Los 50 Numeros Aleatorios: ", min_genrnd(numrand)
 
 ## iniciar cuenta tiempo ejecucion ejercicio 30
 
-#print("La media de los 50M Numeros Aleatorios : ", media5m(alea500))
-#print("La mediana de los 50M Numeros Aleatorios : ", median50m(alea500))
-#print("Rango de Los 50M Numeros Aleatorios : ", rango50m(alea500))
-#print("La Varianza de  Los 50M Numeros Aleatorios : ", Vargen50m(alea500))
-#print("El minimo del vector de Los 50M Numeros aleatorios: ", min_50m(alea500))
-#print("El maximo del vector de Los 50M Numeros aleatorios: ", maxgenr50m(alea500))
+#print("La media de los 50M Numeros Aleatorios : ", media5m(NR50M))
+#print("La mediana de los 50M Numeros Aleatorios : ", median50m(NR50M))
+#print("Rango de Los 50M Numeros Aleatorios : ", rango50m(NR50M))
+#print("La Varianza de  Los 50M Numeros Aleatorios : ", Vargen50m(NR50M))
+#print("El minimo del vector de Los 50M Numeros aleatorios: ", min_50m(NR50M))
+#print("El maximo del vector de Los 50M Numeros aleatorios: ", maxgenr50m(NR50M))
 ## Finalizar cuenta tiempo ejecucion ejercicio 30
 #print("Tiempo de ejecucion Funciones 16 a 21: ", fin - inicio) #Ejercicio 29
 #print("Tiempo de ejecucion Funciones 22 a 28: ", fin1 - inicio1) #Ejericio 30
