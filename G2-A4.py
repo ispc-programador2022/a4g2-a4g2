@@ -21,7 +21,7 @@ from minigen import min_genrnd
 from medianadelvector import mediardm
 from Mediana del vector import medianadelvector #Quitar espacios del nombre del archivo py
 
-## asignamos los valores para las operaciones
+## asignamos los valores para las operaciones#
 enteros= ing2i()
 str= ing2s()
 numrand=genrdm()
