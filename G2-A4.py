@@ -15,7 +15,7 @@ from funcion9 import funcion9
 from funcion11 import funcion11
 from genrdm import genrdm ## modificar funcion sacar print
 from sumagenrd import sumgenr
-from progen import progen## modificar  funcion asignarle una lista x ejemplo def progenr(numalea): lista= numalea
+from progen import progen ## modificar  funcion asignarle una lista x ejemplo def progenr(numalea): lista= numalea
 from maxgenrdm import maxgenrdm ##modificar funcion sacar el import genrdm
 from minigen import min_genrnd
 from medianadelvector import mediardm
@@ -43,10 +43,10 @@ print("Suma de las Combinaciones posibles Genrnd tomados de a dos: ", sumgenr(nu
 #print("Producto de las Combinaciones posibles Genrnd tomados de a dos: ", progen(numrand))##14- función que devuelva el producto
 
 ## iniciar cuenta tiempo ejecucion ejercicio 29
-print("Media de Los 50 Numeros Aleatorios: ", mediardm(numrand))
-#print("Mediana de Los 50 Numeros Aleatorios: ", median(nr))
+print("Media de Los 50 Numeros Aleatorios: ", mediardm(numrand))##16- función que calcule la media    
+#print("Mediana de Los 50 Numeros Aleatorios: ", median(numrand))
 #print("Rango de Los 50 Numeros Aleatorios: ", rangogen(numrand))
-print("La Varianza de Los 50 Numeros Aleatorios: ", Vargen(numrand)) ##15- función que devuelva el producto
+print("La Varianza de Los 50 Numeros Aleatorios: ", Vargen(numrand)) ##19- función que calcule la varianza
 print("El minimo del vector de Los 50 Numeros Aleatorios: ", min_genrnd(numrand))##20- función que calcule devuelva el mínimo
 #print("El maximo del vector de Los 50 Numeros Aleatorios: ", maxgenrdm(numrand))
 ## Finalizar cuenta tiempo ejecucion ejercicio 29
@@ -60,3 +60,7 @@ print("El minimo del vector de Los 50 Numeros Aleatorios: ", min_genrnd(numrand)
 #print("El minimo del vector de Los 50M Numeros aleatorios: ", min_50m(alea500))
 #print("El maximo del vector de Los 50M Numeros aleatorios: ", maxgenr50m(alea500))
 ## Finalizar cuenta tiempo ejecucion ejercicio 30
+#print("Tiempo de ejecucion Funciones 16 a 21: ", fin - inicio) #Ejercicio 29
+#print("Tiempo de ejecucion Funciones 22 a 28: ", fin1 - inicio1) #Ejericio 30
+
+print("Python Developer's: \n", "*Chacon Claudio Gabriel\n" ,"*Contreras Carla Daniela\n", "*Contreras Montañana David Ismael\n", "*Cordoba Marcelo Gustavo\n" ,"*Cuestas Natalia Noemi\n", "*Den Dauw Emmanuel\n" )
