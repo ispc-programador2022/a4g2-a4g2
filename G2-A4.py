@@ -21,6 +21,7 @@ from minigen import min_genrnd
 from mediardm import mediardm## quitar print modificar  funcion asignarle una lista x ejemplo def media(numalea): lista= numalea
 ## Modificar Nombre Mediana del vector como py, quitar print e import del genrdm, asignarle una lista x
 from varianza import Vargen
+##FUNCIONES PENDIENTES BLOQUE 4
 ## asignamos los valores para las operaciones
 enteros= ing2i()
 str= ing2s()
