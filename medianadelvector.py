@@ -1,6 +1,6 @@
 
 def mediardm(listax):
-    m=genrdm()
+    m=listax
     return sum(m)/len(m)
 
 
