@@ -12,6 +12,7 @@ from potencia import potencia
 from raiz import raiz
 from funcion9 import funcion9
 #from Ejercicio 10 import Ejercicio 10 #Quitar espacios del nombre del archivo py
+from Ejercicio10 import ejercicio_10
 from funcion11 import funcion11
 from genrdm import genrdm 
 from sumagenrd import sumgenr
@@ -43,7 +44,7 @@ print("Operación Radicación de Enteros: ", enteros[1], "√", enteros[0], "=",
 print("Ingrese Tercer parametro para operar: ")
 enteros.append(int(input()))## Agregamos Tercer Parametro
 print("Operación Producto de los 2 Enteros mas el Tercer Parametro es= ", funcion9(enteros[0],enteros[1],enteros[2]))##9- función p1, retorna el producto
-#10- función p1, retorna la suma
+print("Operación Suma de los 2 Enteros por el Tercer Parametro es= ", ejercicio_10(enteros[0],enteros[1],enteros[2]))#10- función p1, retorna la suma
 print("Operación Resta de los 2 Enteros por el Tercer Parametro es= ", funcion11(enteros[0],enteros[1],enteros[2]))#11- función p1, retorna la resta
 
 print("Numeros aleatorios: ", numrand)##12- función genrnd
@@ -56,7 +57,7 @@ print("Media de Los 50 Numeros Aleatorios: ", mediardm(numrand))##16- función q
 #print("Rango de Los 50 Numeros Aleatorios: ", rangogen(numrand))#18- función que calcule el rango
 print("La Varianza de Los 50 Numeros Aleatorios: ", Vargen(numrand)) ##19- función que calcule la varianza
 print("El minimo del vector de Los 50 Numeros Aleatorios: ", min_genrnd(numrand))##20- función que calcule devuelva el mínimo
-#print("El maximo del vector de Los 50 Numeros Aleatorios: ", maxgenrdm(numrand))#21- función que calcule devuelva el máximo
+print("El maximo del vector de Los 50 Numeros Aleatorios: ", maxgenrdm(numrand))#21- función que calcule devuelva el máximo
 #22- función genrnd que retorna una lista con 500.000.000.000.000.000 números aleatorios
 ## Finalizar cuenta tiempo ejecucion ejercicio 29
 

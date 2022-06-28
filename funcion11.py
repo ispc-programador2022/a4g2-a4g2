@@ -1,9 +1,6 @@
 import resta
-import producto
 
 def funcion11(a,b,c):
-    
-    rest = resta.resta(a, b)
-    
-    multi = producto.producto (resta,c)
-    return (multi)
+
+    func11 = resta.resta(a, b) * c
+    return (func11)
