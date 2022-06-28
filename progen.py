@@ -2,8 +2,8 @@
 # números generados por la función genrnd tomados de a dos.
 
 # Llamo a la funcion genrnd de 50 num aleatorios
-def progen():
-    lista=genrdm()
+def progen(listax):
+    lista = listax
     total=0
     for i in range(0,len(lista)-1):
         for j in range(i+1,len(lista)):
