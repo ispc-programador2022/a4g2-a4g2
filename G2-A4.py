@@ -27,10 +27,12 @@ from min50m import min_50m
 from timeit import default_timer
 
 ## asignamos los valores para las operaciones#
+
 enteros= ing2i()
 str= ing2s()
 numrand=genrdm()
 nr50m= genrdmgigante()
+
 print("Operación Suma de Enteros: ", enteros[0], "+", enteros[1], "=", suma(enteros[0],enteros[1])) ##1- función suma
 print("Operación Resta de Enteros: ", enteros[0], "-", enteros[1], "=", resta(enteros[0],enteros[1])) ##2- función resta
 print("Operación Producto de Enteros: ", enteros[0], "*", enteros[1], "=", producto(enteros[0],enteros[1])) ##3- función producto
