@@ -1,7 +1,5 @@
-from genrdm import genrdm
-
-def restagenrdm():
-    lista=genrdm() #generamos la lista de aleatorios invocando a genrdm
+def restagenrdm(listax):
+    lista=listax #generamos la lista de aleatorios invocando a genrdm
     total=[] #creamos una lista para acumular los resultados de las diferencias de cada combinacion
     for i in range(0,len(lista)): #recorremos la lista restando los elementos conbinados
         for j in range(0,len(lista)):

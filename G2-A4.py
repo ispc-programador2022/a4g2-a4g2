@@ -16,8 +16,9 @@ from Ejercicio10 import ejercicio_10
 from funcion11 import funcion11
 from genrdm import genrdm 
 from sumagenrd import sumgenr
-from progen import progen 
-from maxgenrdm import maxgenrdm ## modificar funcion sacar el import genrdm, asignar (listax) numeros=listax
+from progen import progen
+from restagenrdm import restagenrdm
+from maxgenrdm import maxgenrdm 
 from minigen import min_genrnd
 from medianadelvector import mediardm
 #from Mediana del vector import medianadelvector #Quitar espacios del nombre del archivo py
@@ -50,7 +51,7 @@ print("Operación Resta de los 2 Enteros por el Tercer Parametro es= ", funcion1
 print("Numeros aleatorios: ", numrand)##12- función genrnd
 print("Suma de las Combinaciones posibles Genrnd tomados de a dos: ", sumgenr(numrand))##13- función que devuelva la suma 
 print("Producto de las Combinaciones posibles Genrnd tomados de a dos: ", progen(numrand))##14- función que devuelva el producto
-
+print("Resta de las Combinaciones posibles Genrnd tomados de a dos: ", restagenrdm(numrand))
 ## iniciar cuenta tiempo ejecucion ejercicio 29
 print("Media de Los 50 Numeros Aleatorios: ", mediardm(numrand))##16- función que calcule la media    
 #print("Mediana de Los 50 Numeros Aleatorios: ", medianadelvector(numrand))#17- función que calcule la mediana
