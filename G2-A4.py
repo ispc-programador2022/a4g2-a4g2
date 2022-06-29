@@ -21,7 +21,7 @@ from restagenrdm import restagenrdm
 from maxgenrdm import maxgenrdm 
 from minigen import min_genrnd
 from medianadelvector import mediardm
-#from Mediana del vector import medianadelvector #Quitar espacios del nombre del archivo py
+from medianadelvectorcorto import medianardm
 from varianza import Vargen
 from genrdmgigante import genrdmgigante
 from var50m import Vargen50m
@@ -54,7 +54,7 @@ print("Producto de las Combinaciones posibles Genrnd tomados de a dos: ", progen
 print("Resta de las Combinaciones posibles Genrnd tomados de a dos: ", restagenrdm(numrand))
 ## iniciar cuenta tiempo ejecucion ejercicio 29
 print("Media de Los 50 Numeros Aleatorios: ", mediardm(numrand))##16- función que calcule la media    
-#print("Mediana de Los 50 Numeros Aleatorios: ", medianadelvector(numrand))#17- función que calcule la mediana
+print("Mediana de Los 50 Numeros Aleatorios: ", medianardm(numrand))#17- función que calcule la mediana
 #print("Rango de Los 50 Numeros Aleatorios: ", rangogen(numrand))#18- función que calcule el rango
 print("La Varianza de Los 50 Numeros Aleatorios: ", Vargen(numrand)) ##19- función que calcule la varianza
 print("El minimo del vector de Los 50 Numeros Aleatorios: ", min_genrnd(numrand))##20- función que calcule devuelva el mínimo
