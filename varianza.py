@@ -1,6 +1,6 @@
 #  función que calcule la varianza del vector obtenido en genrnd.
 
-def Vargen (numalea):
+def Vargen(numalea):
     list= numalea
     larg= len (list)
     media= sum(list)/larg

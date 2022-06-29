@@ -1,3 +1,3 @@
 def cartel():
-    saludo = ("App By Grupo 2 / Aula 4")
+    saludo = ("-----------------------------\n|  App By Grupo 2 / Aula 4  |\n-----------------------------\n")
     return saludo
