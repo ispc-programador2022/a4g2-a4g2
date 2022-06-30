@@ -11,7 +11,6 @@ from modulo import modulo
 from potencia import potencia
 from raiz import raiz
 from funcion9 import funcion9
-#from Ejercicio 10 import Ejercicio 10 #Quitar espacios del nombre del archivo py
 from Ejercicio10 import ejercicio_10
 from funcion11 import funcion11
 from genrdm import genrdm 
