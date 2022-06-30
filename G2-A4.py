@@ -22,8 +22,10 @@ from maxgenrdm import maxgenrdm
 from minigen import min_genrnd
 from medianadelvector import mediardm
 from medianadelvectorcorto import medianardm
+from rangogen import rangogen
 from varianza import Vargen
 from genrdmgigante import genrdmgigante
+from Rango50m import Rango50m
 from var50m import Vargen50m
 from min50m import min_50m
 from timeit import default_timer
@@ -55,7 +57,7 @@ print("Resta de las Combinaciones posibles Genrnd tomados de a dos: ", restagenr
 ## iniciar cuenta tiempo ejecucion ejercicio 29
 print("Media de Los 50 Numeros Aleatorios: ", mediardm(numrand))##16- función que calcule la media    
 print("Mediana de Los 50 Numeros Aleatorios: ", medianardm(numrand))#17- función que calcule la mediana
-#print("Rango de Los 50 Numeros Aleatorios: ", rangogen(numrand))#18- función que calcule el rango
+print("Rango de Los 50 Numeros Aleatorios: ", rangogen(numrand))#18- función que calcule el rango
 print("La Varianza de Los 50 Numeros Aleatorios: ", Vargen(numrand)) ##19- función que calcule la varianza
 print("El minimo del vector de Los 50 Numeros Aleatorios: ", min_genrnd(numrand))##20- función que calcule devuelva el mínimo
 print("El maximo del vector de Los 50 Numeros Aleatorios: ", maxgenrdm(numrand))#21- función que calcule devuelva el máximo
@@ -66,7 +68,7 @@ print("El maximo del vector de Los 50 Numeros Aleatorios: ", maxgenrdm(numrand))
 
 #print("La media de los 50M Numeros Aleatorios : ", media5m(nr50m))#23- función que calcule la media
 #print("La mediana de los 50M Numeros Aleatorios : ", median50m(nr50m))#24- función que calcule la mediana
-#print("Rango de Los 50M Numeros Aleatorios : ", rango50m(nr50m))#25- función que calcule el rango
+print("Rango de Los 50M Numeros Aleatorios : ", Rango50m(nr50m))#25- función que calcule el rango
 print("La Varianza de  Los 50M Numeros Aleatorios : ", Vargen50m(nr50m))#26- función que calcule la varianza
 print("El minimo del vector de Los 50M Numeros aleatorios: ", min_50m(nr50m))#27- función que calcule devuelva el mínimo
 #print("El maximo del vector de Los 50M Numeros aleatorios: ", maxgenr50m(nr50m))#28- función que calcule devuelva
