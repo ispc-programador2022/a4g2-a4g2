@@ -50,7 +50,7 @@ print("Operación Producto de los 2 Enteros mas el Tercer Parametro es= ", funci
 print("Operación Suma de los 2 Enteros por el Tercer Parametro es= ", ejercicio_10(enteros[0],enteros[1],enteros[2]))#10- función p1, retorna la suma
 print("Operación Resta de los 2 Enteros por el Tercer Parametro es= ", funcion11(enteros[0],enteros[1],enteros[2]))#11- función p1, retorna la resta
 
-print("Numeros aleatorios: ", numrand)##12- función genrnd
+print("50 Numeros aleatorios Genrnd: ", numrand)##12- función genrnd
 print("Suma de las Combinaciones posibles Genrnd tomados de a dos: ", sumgenr(numrand))##13- función que devuelva la suma 
 print("Producto de las Combinaciones posibles Genrnd tomados de a dos: ", progen(numrand))##14- función que devuelva el producto
 print("Resta de las Combinaciones posibles Genrnd tomados de a dos: ", restagenrdm(numrand))
@@ -65,13 +65,13 @@ print("El maximo del vector de Los 50 Numeros Aleatorios: ", maxgenrdm(numrand))
 ## Finalizar cuenta tiempo ejecucion ejercicio 29
 
 ## iniciar cuenta tiempo ejecucion ejercicio 30
-
-#print("La media de los 50M Numeros Aleatorios : ", media5m(nr50m))#23- función que calcule la media
-#print("La mediana de los 50M Numeros Aleatorios : ", median50m(nr50m))#24- función que calcule la mediana
+print("50M Numero Aleatorios: ", "...", nr50m[1:20], "...")
+print("La media de los 50M Numeros Aleatorios : ", mediardm(nr50m))#23- función que calcule la media
+print("La mediana de los 50M Numeros Aleatorios : ", medianardm(nr50m))#24- función que calcule la mediana
 print("Rango de Los 50M Numeros Aleatorios : ", Rango50m(nr50m))#25- función que calcule el rango
 print("La Varianza de  Los 50M Numeros Aleatorios : ", Vargen50m(nr50m))#26- función que calcule la varianza
 print("El minimo del vector de Los 50M Numeros aleatorios: ", min_50m(nr50m))#27- función que calcule devuelva el mínimo
-#print("El maximo del vector de Los 50M Numeros aleatorios: ", maxgenr50m(nr50m))#28- función que calcule devuelva
+print("El maximo del vector de Los 50M Numeros aleatorios: ", maxgenrdm(nr50m))#28- función que calcule devuelva
 
 ## Finalizar cuenta tiempo ejecucion ejercicio 30
 
