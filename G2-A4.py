@@ -61,11 +61,10 @@ print("Rango de Los 50 Numeros Aleatorios: ", rangogen(numrand))#18- función qu
 print("La Varianza de Los 50 Numeros Aleatorios: ", Vargen(numrand)) ##19- función que calcule la varianza
 print("El minimo del vector de Los 50 Numeros Aleatorios: ", min_genrnd(numrand))##20- función que calcule devuelva el mínimo
 print("El maximo del vector de Los 50 Numeros Aleatorios: ", maxgenrdm(numrand))#21- función que calcule devuelva el máximo
-#22- función genrnd que retorna una lista con 500.000.000.000.000.000 números aleatorios
 ##Fin= Finalizar cuenta tiempo ejecucion ejercicio 29
 
 ##Inicio2= iniciar cuenta tiempo ejecucion ejercicio 30
-print("50 MIL Numeros Aleatorios: ", "...", nr50m[1:20], "...")
+print("50 MIL Numeros Aleatorios: ", "...", nr50m[1:20], "...") #22- función genrnd que retorna una lista con 500.000.000.000.000.000 números aleatorios
 print("La media de los 50M Numeros Aleatorios : ", mediardm(nr50m))#23- función que calcule la media
 print("La mediana de los 50M Numeros Aleatorios : ", medianardm(nr50m))#24- función que calcule la mediana
 print("Rango de Los 50M Numeros Aleatorios : ", Rango50m(nr50m))#25- función que calcule el rango
