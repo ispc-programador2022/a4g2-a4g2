@@ -54,7 +54,7 @@ print("50 Numeros aleatorios Genrnd: ", numrand)##12- función genrnd
 print("Suma de las Combinaciones posibles Genrnd tomados de a dos: ", sumgenr(numrand))##13- función que devuelva la suma 
 print("Producto de las Combinaciones posibles Genrnd tomados de a dos: ", progen(numrand))##14- función que devuelva el producto
 print("Resta de las Combinaciones posibles Genrnd tomados de a dos: ", restagenrdm(numrand))
-## iniciar cuenta tiempo ejecucion ejercicio 29
+##Inicio= iniciar cuenta tiempo ejecucion ejercicio 29
 print("Media de Los 50 Numeros Aleatorios: ", mediardm(numrand))##16- función que calcule la media    
 print("Mediana de Los 50 Numeros Aleatorios: ", medianardm(numrand))#17- función que calcule la mediana
 print("Rango de Los 50 Numeros Aleatorios: ", rangogen(numrand))#18- función que calcule el rango
@@ -62,10 +62,10 @@ print("La Varianza de Los 50 Numeros Aleatorios: ", Vargen(numrand)) ##19- funci
 print("El minimo del vector de Los 50 Numeros Aleatorios: ", min_genrnd(numrand))##20- función que calcule devuelva el mínimo
 print("El maximo del vector de Los 50 Numeros Aleatorios: ", maxgenrdm(numrand))#21- función que calcule devuelva el máximo
 #22- función genrnd que retorna una lista con 500.000.000.000.000.000 números aleatorios
-## Finalizar cuenta tiempo ejecucion ejercicio 29
+##Fin= Finalizar cuenta tiempo ejecucion ejercicio 29
 
-## iniciar cuenta tiempo ejecucion ejercicio 30
-print("50M Numero Aleatorios: ", "...", nr50m[1:20], "...")
+##Inicio2= iniciar cuenta tiempo ejecucion ejercicio 30
+print("50 MIL Numeros Aleatorios: ", "...", nr50m[1:20], "...")
 print("La media de los 50M Numeros Aleatorios : ", mediardm(nr50m))#23- función que calcule la media
 print("La mediana de los 50M Numeros Aleatorios : ", medianardm(nr50m))#24- función que calcule la mediana
 print("Rango de Los 50M Numeros Aleatorios : ", Rango50m(nr50m))#25- función que calcule el rango
@@ -73,7 +73,7 @@ print("La Varianza de  Los 50M Numeros Aleatorios : ", Vargen50m(nr50m))#26- fun
 print("El minimo del vector de Los 50M Numeros aleatorios: ", min_50m(nr50m))#27- función que calcule devuelva el mínimo
 print("El maximo del vector de Los 50M Numeros aleatorios: ", maxgenrdm(nr50m))#28- función que calcule devuelva
 
-## Finalizar cuenta tiempo ejecucion ejercicio 30
+##Fin=2 Finalizar cuenta tiempo ejecucion ejercicio 30
 
 #print("Tiempo de ejecucion Funciones 16 a 21: ", fin - inicio) #Ejercicio 29
 #print("Tiempo de ejecucion Funciones 22 a 28: ", fin1 - inicio1) #Ejericio 30
